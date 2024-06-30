@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+body, input, textarea{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-center{
+    align-items: center;
+}
+
+a{
+    transition: .6s;
+    text-decoration: none;
+}
+
+a:hover,
+button:hover{
+    opacity: .8;
+}
+
+
+:target{
+    margin-top: 20px;
+}
+
+header{
+    background-color: #007bff;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+header ul li{
+    display: inline;
+    font-size: 18px;
+}
+
+header ul li a{
+    color: #fff;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    padding: 10px;
+}
+
+header .container{
+    padding: 15px 0;
+}
+
+header nav a:hover{
+    background-color: #fff;
+    color: #007bff;
+}
+header .container-logo li{
+    margin-left: 5px;
+}
+
+section{
+    padding: 35px 0;
+}
+
+section h2,
+section h3{
+    margin-bottom: 16px;
+    color: #007bff;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form > div{
+    padding-right: 5px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+form .form-50{
+    width: 50%;
+}
+
+form .form-100{
+    width: 100%;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+#contact form button{
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus{
+    outline-color: #fff;
+}
+
+footer {
+    padding: 16px 0;
+    text-align: center;
+}
+
+footer,
+#services,
+#contact{
+    background-color: #007bff;
+}
+
+footer *,
+#services *,
+#contact *{
+    color: #fff;
+}
+
+
+#about img{
+    float: right;
+    max-width: 40%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#services *{
+    text-align: center
+}
+
+.services-item{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 10px;
+}
+
+#reviews .container-flex{
+    justify-content: space-around;
+}
+
+#reviews h2{
+    text-align: center;
+}
+
+.reviews-item{
+    background-color: #d8d8d8;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+    font-style: italic;
+}
+
+.reviews-item h3{
+    margin-bottom: 0;
+}
+
+
+#contact address{
+    margin-bottom: 20px;
+}
